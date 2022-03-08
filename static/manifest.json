@@ -1,9 +1,0 @@
-{
-    "short_name": "svelte-pwa",
-    "name": "svelte-test-pwa",
-    "start_url": "/",
-    "icons": [ ],
-    "display": "standalone",
-    "background_color": "#3e5",
-    "theme_color": "#645"
-}
