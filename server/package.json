@@ -1,0 +1,30 @@
+{
+  "name": "usacars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HlebNoGleb/usaCars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HlebNoGleb/usaCars/issues"
+  },
+  "homepage": "https://github.com/HlebNoGleb/usaCars#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.5",
+    "node-schedule": "^2.1.0",
+    "rand-token": "^1.0.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
