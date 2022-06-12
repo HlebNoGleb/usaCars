@@ -33,7 +33,7 @@ app.use('/posts', postsRouter)
 
 app.listen(3001, () => console.log('Server Started'))
 
-// const getUsersSchedule = schedule.scheduleJob('20 * * * * *', function(){
+// const getUsersSchedule = schedule.scheduleJob('*/5 * * * * *', function(){
 //   getUsers();
 // });
 

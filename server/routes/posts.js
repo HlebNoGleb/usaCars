@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
     // findCondition = deletedOnSite.site1.status = true;
   }
   try {
-    const posts = await Post.find({"deletedOnSite.site1.status": false})
+    const posts = await Post.find(/*{"deletedOnSite.site1.status": false}*/)
     res.json(posts)
   } catch (err) {
     res.status(500).json({ message: err.message })
